@@ -144,13 +144,13 @@ public class FacebookMessageImpl implements IFacebookMessage {
 
 				Bubble firstBubble = new Bubble("Su estado de cuenta esta listo.");
 				firstBubble.setSubtitle("¿Cómo deseas obtenerlo? ");
-				firstBubble.setImageUrl("http://bot.everis.ai/images/factura_puntos.jpg");
+				firstBubble.setImageUrl("https://everisbotsec-everis.1d35.starter-us-east-1.openshiftapps.com/images/factura_puntos.jpg");
 
 				WebButton webButton = new WebButton("Vía correo electrónico", "http://example.org/sample.html");
 				firstBubble.addButton(webButton);
 
 				WebButton webButton2 = new WebButton("En descarga directa",
-						"http://bot.everis.ai/docs/Factura12-06-2013.pdf");
+						"https://everisbotsec-everis.1d35.starter-us-east-1.openshiftapps.com/docs/Factura12-06-2013.pdf");
 				firstBubble.addButton(webButton2);
 
 				payload.addBubble(firstBubble);
@@ -273,7 +273,7 @@ public class FacebookMessageImpl implements IFacebookMessage {
 		GenericTemplatePayload payload = new GenericTemplatePayload();
 
 
-		sendSimpleMessage(sender, "Estos son los CACs más cercanos, te puedo ayudar a llegar a ellos, vamos 🚶🏽‍♂️ ", pageToken);
+		sendSimpleMessage(sender, "Estos son los CACs más cercanos, te puedo ayudar a llegar a ellos, vamos 🚶🏽‍ ", pageToken);
 
 		ArrayList<String> lstCacs = new ArrayList<String>();
 		lstCacs.add("CAC CARSO; 19.4414623,-99.2045969;CMI, Lago Zurich 245, Miguel Hidalgo, Amp Granada, 11529 Ciudad de México, CDMX");
@@ -481,7 +481,7 @@ public class FacebookMessageImpl implements IFacebookMessage {
 		Bubble plan1 = new Bubble("Telcel Max Sin Límites 1000");
 		plan1.setSubtitle(
 				"Con los Planes Telcel Max Sin Límite, tienes Minutos, Mensajes de Texto (SMS) sin límite en México, E.U.A. y Canadá");
-		plan1.setImageUrl("http://everisbot-digitallab.rhcloud.com/images/plan1000.jpg");
+		plan1.setImageUrl("https://everisbotsec-everis.1d35.starter-us-east-1.openshiftapps.com/images/plan1000.jpg");
 		plan1.setItemUrl(
 				"http://www.telcel.com/personas/equipos/telefonos-y-smartphones/samsung/sm-g930f#opciones-compra");
 		PostbackButton buttonContrata = new PostbackButton("¿Cómo contratar?", "CONTRATACION");
@@ -494,7 +494,7 @@ public class FacebookMessageImpl implements IFacebookMessage {
 		Bubble plan2 = new Bubble("Telcel Max Sin Límites 2000");
 		plan2.setSubtitle(
 				"Con los Planes Telcel Max Sin Límite, tienes Minutos, Mensajes de Texto (SMS) sin límite en México, E.U.A. y Canadá");
-		plan2.setImageUrl("http://everisbot-digitallab.rhcloud.com/images/plan2000.jpg");
+		plan2.setImageUrl("https://everisbotsec-everis.1d35.starter-us-east-1.openshiftapps.com/images/plan2000.jpg");
 		plan2.setItemUrl(
 				"http://www.telcel.com/personas/equipos/telefonos-y-smartphones/samsung/sm-g930f#opciones-compra");
 		WebButton web2 = new WebButton("Quiero saber más.",
@@ -506,7 +506,7 @@ public class FacebookMessageImpl implements IFacebookMessage {
 		Bubble plan3 = new Bubble("Telcel Max Sin Límites 3000");
 		plan3.setSubtitle(
 				"Con los Planes Telcel Max Sin Límite, tienes Minutos, Mensajes de Texto (SMS) sin límite en México, E.U.A. y Canadá");
-		plan3.setImageUrl("http://everisbot-digitallab.rhcloud.com/images/plan3000.jpg");
+		plan3.setImageUrl("https://everisbotsec-everis.1d35.starter-us-east-1.openshiftapps.com/images/plan3000.jpg");
 		plan3.setItemUrl(
 				"http://www.telcel.com/personas/equipos/telefonos-y-smartphones/samsung/sm-g930f#opciones-compra");
 		WebButton web3 = new WebButton("Quiero saber más.",
@@ -518,7 +518,7 @@ public class FacebookMessageImpl implements IFacebookMessage {
 		Bubble plan5 = new Bubble("Telcel Max Sin Límites 5000");
 		plan5.setSubtitle(
 				"Con los Planes Telcel Max Sin Límite, tienes Minutos, Mensajes de Texto (SMS) sin límite en México, E.U.A. y Canadá");
-		plan5.setImageUrl("http://everisbot-digitallab.rhcloud.com/images/plan5000.jpg");
+		plan5.setImageUrl("https://everisbotsec-everis.1d35.starter-us-east-1.openshiftapps.com/images/plan5000.jpg");
 		plan5.setItemUrl(
 				"http://www.telcel.com/personas/equipos/telefonos-y-smartphones/samsung/sm-g930f#opciones-compra");
 		WebButton web5 = new WebButton("Quiero saber más.",
@@ -530,7 +530,7 @@ public class FacebookMessageImpl implements IFacebookMessage {
 		Bubble plan6 = new Bubble("Telcel Max Sin Límites 6000");
 		plan6.setSubtitle(
 				"Con los Planes Telcel Max Sin Límite, tienes Minutos, Mensajes de Texto (SMS) sin límite en México, E.U.A. y Canadá");
-		plan6.setImageUrl("http://everisbot-digitallab.rhcloud.com/images/plan6000.jpg");
+		plan6.setImageUrl("https://everisbotsec-everis.1d35.starter-us-east-1.openshiftapps.com/images/plan6000.jpg");
 		plan6.setItemUrl(
 				"http://www.telcel.com/personas/equipos/telefonos-y-smartphones/samsung/sm-g930f#opciones-compra");
 		WebButton web6 = new WebButton("Quiero saber más.",
@@ -542,7 +542,7 @@ public class FacebookMessageImpl implements IFacebookMessage {
 		Bubble plan7 = new Bubble("Telcel Max Sin Límites 7000");
 		plan7.setSubtitle(
 				"Con los Planes Telcel Max Sin Límite, tienes Minutos, Mensajes de Texto (SMS) sin límite en México, E.U.A. y Canadá");
-		plan7.setImageUrl("http://everisbot-digitallab.rhcloud.com/images/plan7000.jpg");
+		plan7.setImageUrl("https://everisbotsec-everis.1d35.starter-us-east-1.openshiftapps.com/images/plan7000.jpg");
 		plan7.setItemUrl(
 				"http://www.telcel.com/personas/equipos/telefonos-y-smartphones/samsung/sm-g930f#opciones-compra");
 		WebButton web7 = new WebButton("Quiero saber más.",
@@ -585,7 +585,7 @@ public class FacebookMessageImpl implements IFacebookMessage {
 
 		Bubble bubbleSinLimite = new Bubble("Amigo Sin Límite");
 		bubbleSinLimite.setSubtitle("Amigo Sin Límite");
-		bubbleSinLimite.setImageUrl("http://everisbot-digitallab.rhcloud.com/images/amigoSinLimite.jpg");
+		bubbleSinLimite.setImageUrl("https://everisbotsec-everis.1d35.starter-us-east-1.openshiftapps.com/images/amigoSinLimite.jpg");
 		bubbleSinLimite
 				.setItemUrl("http://www.telcel.com/personas/telefonia/amigo/tarifas-y-opciones#!amigo-sin-limite");
 		WebButton webButtonSinLimite = new WebButton("Quiero saber más",
@@ -596,7 +596,7 @@ public class FacebookMessageImpl implements IFacebookMessage {
 
 		Bubble bubblePorSegundo = new Bubble("Amigo Por Segundo");
 		bubblePorSegundo.setSubtitle("Amigo Por Segundo");
-		bubblePorSegundo.setImageUrl("http://everisbot-digitallab.rhcloud.com/images/amigoSegundo.jpg");
+		bubblePorSegundo.setImageUrl("https://everisbotsec-everis.1d35.starter-us-east-1.openshiftapps.com/images/amigoSegundo.jpg");
 		bubblePorSegundo
 				.setItemUrl("http://www.telcel.com/personas/telefonia/amigo/tarifas-y-opciones#!cobro-por-segundo");
 		WebButton webButtonPorSegundo = new WebButton("Quiero saber más",
@@ -607,7 +607,7 @@ public class FacebookMessageImpl implements IFacebookMessage {
 
 		Bubble bubbleOptimoSinFrontera = new Bubble("Amigo Óptimo Plus Sin Frontera");
 		bubbleOptimoSinFrontera.setSubtitle("Amigo Óptimo Plus Sin Frontera");
-		bubbleOptimoSinFrontera.setImageUrl("http://everisbot-digitallab.rhcloud.com/images/amigoFrontera.jpg");
+		bubbleOptimoSinFrontera.setImageUrl("https://everisbotsec-everis.1d35.starter-us-east-1.openshiftapps.com/images/amigoFrontera.jpg");
 		bubbleOptimoSinFrontera.setItemUrl(
 				"http://www.telcel.com/personas/telefonia/amigo/tarifas-y-opciones#!amigo-optimo-plus-sin-frontera");
 		WebButton webButtonSinFrontera = new WebButton("Quiero saber más",
@@ -619,7 +619,7 @@ public class FacebookMessageImpl implements IFacebookMessage {
 
 		Bubble bubblePaqAmigoSinLimites = new Bubble("Paquetes Amigo Sin Límites");
 		bubblePaqAmigoSinLimites.setSubtitle("Paquetes Amigo Sin Límites");
-		bubblePaqAmigoSinLimites.setImageUrl("http://everisbot-digitallab.rhcloud.com/images/amigoPaquete.jpg");
+		bubblePaqAmigoSinLimites.setImageUrl("https://everisbotsec-everis.1d35.starter-us-east-1.openshiftapps.com/images/amigoPaquete.jpg");
 		bubblePaqAmigoSinLimites.setItemUrl(
 				"http://www.telcel.com/personas/telefonia/amigo/tarifas-y-opciones#!paquetes-amigo-sin-limite");
 		WebButton webButtonPaqSinLimites = new WebButton("Quiero saber más",
@@ -630,7 +630,7 @@ public class FacebookMessageImpl implements IFacebookMessage {
 
 		Bubble bubbleAmigoMasInformacion = new Bubble("Más información");
 		bubbleAmigoMasInformacion.setSubtitle("Más información");
-		bubbleAmigoMasInformacion.setImageUrl("http://everisbot-digitallab.rhcloud.com/images/masInformacion.jpg");
+		bubbleAmigoMasInformacion.setImageUrl("https://everisbotsec-everis.1d35.starter-us-east-1.openshiftapps.com/images/masInformacion.jpg");
 		bubbleAmigoMasInformacion
 				.setItemUrl("http://www.telcel.com/personas/telefonia/amigo/tarifas-y-opciones#!mas-informacion");
 		WebButton webButtonAmigoMasInformacion = new WebButton("Más",
