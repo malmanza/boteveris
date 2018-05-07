@@ -6,9 +6,11 @@ public class UsuarioFB implements Serializable {
 	private String first_name;
 	private String last_name;
 	private String profile_pic;
-	 private String locale;
-	 private String timezone;
-	 private String gender;
+	private String locale;
+	private String timezone;
+	private String gender;
+	private String id;
+
 	public String getFirst_name() {
 		return first_name;
 	}
@@ -45,6 +47,12 @@ public class UsuarioFB implements Serializable {
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
-	 
-	 
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+
+
 }
