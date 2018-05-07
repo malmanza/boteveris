@@ -101,7 +101,8 @@ public class webhook extends HttpServlet {
 				BufferedReader reader = request.getReader();
 				while ((line = reader.readLine()) != null)
 					jb.append(line);
-
+				
+				System.out.println("Mensaje recibido: " + jb.toString());
 				/*Parseo a través del API RestFB*/
 				JsonMapper mapper = new DefaultJsonMapper();
 				WebhookObject webhookObject = mapper.toJavaObject(jb.toString(), WebhookObject.class);

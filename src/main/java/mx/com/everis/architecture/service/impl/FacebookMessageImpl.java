@@ -66,6 +66,7 @@ public class FacebookMessageImpl implements IFacebookMessage {
 		if (facebookUsersDao.getUserByIdFacebook(sender) == null) {
 			String qry = "https://graph.facebook.com/v2.8/" + sender + "?access_token=" + pageToken;//
 			URL url;
+			System.out.println("Url a consultar: " + qry);
 			try {
 				url = new URL(qry);
 				ObjectMapper mapper = new ObjectMapper();
